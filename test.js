@@ -4,7 +4,7 @@ const resultado = saudacao("Mundo");
 const esperado = "Olá, Mundo!";
 
 if (resultado !== esperado) {
-  console.error('Falha: esperado"${esperado}", porém recebeu "${resultado}"');
+  console.error(`Falha: esperado "${esperado}", mas recebeu "${resultado}"`);
   process.exit(1);
 }
 
