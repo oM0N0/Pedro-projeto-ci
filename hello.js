@@ -1,4 +1,4 @@
-function saudacao(nome{
+function saudacao(nome) {
   return 'Ola, $(nome)!';
 }
 module.exports=saudacao;
